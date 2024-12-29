@@ -10,6 +10,7 @@ user.txt:
 passwd.txt:
 
 ![My Image](Pasted_image_20241229055718.png)
+
 Firstly we should find password for user `osman`, doing it with python:
 ```python
 with open('user.txt', 'r') as uf, open('passwd.txt', 'r') as pf:
