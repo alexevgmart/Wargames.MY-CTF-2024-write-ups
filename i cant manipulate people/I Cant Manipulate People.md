@@ -4,7 +4,7 @@ Partial traffic packet captured from hacked machine, can you analyze the provide
 #### Solve
 We are given pcap file as a task, so we should open it in wireshark
 
-![My Image](Pasted image 20241229041657.png)
+![My Image](Pasted_image_20241229041657.png)
 
 In protocols DNS and HTTP we can see queries to example.com.
 In protocols TCP and UDP we can see queries we data: random TCP/UDP data.
