@@ -3,7 +3,9 @@
 
 #### Solve
 We are given `challenge.dcm` file. So we should look whats inside:
-![[Pasted image 20241229052943.png]]
+
+![My Image](Pasted_image_20241229052943.png)
+
 There is definetly just a flag, so we should try it. And that is incorrect. We can recognize that description is a huuuge hint, we need to take parts of the flag by those indexes, but only md5 between `{}` as the maximum number in those indexes is 31.
 Here is simple python script to get the flag:
 ```python
